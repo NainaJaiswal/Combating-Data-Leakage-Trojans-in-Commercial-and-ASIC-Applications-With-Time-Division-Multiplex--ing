@@ -1,0 +1,73 @@
+Running: C:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o D:/Paul S/E-Pro_project/ME/TRE/des/DES_test1_isim_beh.exe -prj D:/Paul S/E-Pro_project/ME/TRE/des/DES_test1_beh.prj work.DES_test1 work.glbl 
+ISim P.28xd (signature 0xa0883be4)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/Paul S/E-Pro_project/ME/TRE/des/Xor_permutation.v" into library work
+Analyzing Verilog file "D:/Paul S/E-Pro_project/ME/TRE/des/Xor_operation.v" into library work
+Analyzing Verilog file "D:/Paul S/E-Pro_project/ME/TRE/des/Sbox_Rom8.v" into library work
+Analyzing Verilog file "D:/Paul S/E-Pro_project/ME/TRE/des/Sbox_Rom7.v" into library work
+Analyzing Verilog file "D:/Paul S/E-Pro_project/ME/TRE/des/Sbox_Rom6.v" into library work
+Analyzing Verilog file "D:/Paul S/E-Pro_project/ME/TRE/des/Sbox_Rom5.v" into library work
+Analyzing Verilog file "D:/Paul S/E-Pro_project/ME/TRE/des/Sbox_Rom4.v" into library work
+Analyzing Verilog file "D:/Paul S/E-Pro_project/ME/TRE/des/Sbox_Rom3.v" into library work
+Analyzing Verilog file "D:/Paul S/E-Pro_project/ME/TRE/des/Sbox_Rom2.v" into library work
+Analyzing Verilog file "D:/Paul S/E-Pro_project/ME/TRE/des/Sbox_Rom1.v" into library work
+Analyzing Verilog file "D:/Paul S/E-Pro_project/ME/TRE/des/Sbox_output.v" into library work
+Analyzing Verilog file "D:/Paul S/E-Pro_project/ME/TRE/des/Reg32.v" into library work
+Analyzing Verilog file "D:/Paul S/E-Pro_project/ME/TRE/des/Permuted_Choice2.v" into library work
+Analyzing Verilog file "D:/Paul S/E-Pro_project/ME/TRE/des/Permutation.v" into library work
+Analyzing Verilog file "D:/Paul S/E-Pro_project/ME/TRE/des/mux.v" into library work
+Analyzing Verilog file "D:/Paul S/E-Pro_project/ME/TRE/des/key_gen.v" into library work
+Analyzing Verilog file "D:/Paul S/E-Pro_project/ME/TRE/des/Expansion_P.v" into library work
+Analyzing Verilog file "D:/Paul S/E-Pro_project/ME/TRE/des/dff.v" into library work
+Analyzing Verilog file "D:/Paul S/E-Pro_project/ME/TRE/des/axor.v" into library work
+Analyzing Verilog file "D:/Paul S/E-Pro_project/ME/TRE/des/tdm.v" into library work
+Analyzing Verilog file "D:/Paul S/E-Pro_project/ME/TRE/des/Swap.v" into library work
+Analyzing Verilog file "D:/Paul S/E-Pro_project/ME/TRE/des/Round1.v" into library work
+Analyzing Verilog file "D:/Paul S/E-Pro_project/ME/TRE/des/key_top.v" into library work
+Analyzing Verilog file "D:/Paul S/E-Pro_project/ME/TRE/des/inverse_initial_perm.v" into library work
+Analyzing Verilog file "D:/Paul S/E-Pro_project/ME/TRE/des/initial_Perm.v" into library work
+Analyzing Verilog file "D:/Paul S/E-Pro_project/ME/TRE/des/Des_Top.v" into library work
+Analyzing Verilog file "D:/Paul S/E-Pro_project/ME/TRE/des/DES_test1.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "D:/Paul S/E-Pro_project/ME/TRE/des/DES_test1.v" Line 38: Port d is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/Paul S/E-Pro_project/ME/TRE/des/Des_Top.v" Line 45: Port clk is not connected to this instance
+WARNING:HDLCompiler:189 - "D:/Paul S/E-Pro_project/ME/TRE/des/Des_Top.v" Line 45: Size mismatch in connection of port <d>. Formal port size is 1-bit while actual signal size is 64-bit.
+WARNING:HDLCompiler:189 - "D:/Paul S/E-Pro_project/ME/TRE/des/Des_Top.v" Line 46: Size mismatch in connection of port <PLAIN_TEXT>. Formal port size is 64-bit while actual signal size is 1-bit.
+Completed static elaboration
+Compiling module dff
+Compiling module mux
+Compiling module axor
+Compiling module tdm
+Compiling module Initial_Permutation
+Compiling module Key_Generation
+Compiling module Permuted_Choice2
+Compiling module Key_Top
+Compiling module Expansion_Permutation
+Compiling module Xor_Operation
+Compiling module Sbox_Rom1
+Compiling module Sbox_Rom2
+Compiling module Sbox_Rom3
+Compiling module Sbox_Rom4
+Compiling module Sbox_Rom5
+Compiling module Sbox_Rom6
+Compiling module Sbox_Rom7
+Compiling module Sbox_Rom8
+Compiling module Sbox_Output
+Compiling module Permutation
+Compiling module Xor_Permutation
+Compiling module Reg32
+Compiling module Round1
+Compiling module Swap
+Compiling module Inverse_Initial_Permutation
+Compiling module Des_Top
+Compiling module DES_test1
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 25 sub-compilation(s) to finish...
+Compiled 28 Verilog Units
+Built simulation executable D:/Paul S/E-Pro_project/ME/TRE/des/DES_test1_isim_beh.exe
+Fuse Memory Usage: 28616 KB
+Fuse CPU Usage: 1750 ms

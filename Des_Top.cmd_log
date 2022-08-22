@@ -1,0 +1,26 @@
+xst -intstyle ise -ifn "C:/Users/Aakash/Dropbox/project007/DES/DESS/Des_Top.xst" -ofn "C:/Users/Aakash/Dropbox/project007/DES/DESS/Des_Top.syr" 
+xst -intstyle ise -ifn "D:/Paul S/project/ME/TRE/des/Des_Top.xst" -ofn "D:/Paul S/project/ME/TRE/des/Des_Top.syr" 
+xst -intstyle ise -ifn "D:/Paul S/E-Pro_project/ME/TRE/des/Des_Top.xst" -ofn "D:/Paul S/E-Pro_project/ME/TRE/des/Des_Top.syr" 
+xst -intstyle ise -ifn "D:/Paul S/E-Pro_project/ME/TRE/des/Des_Top.xst" -ofn "D:/Paul S/E-Pro_project/ME/TRE/des/Des_Top.syr" 
+xst -intstyle ise -ifn "D:/Paul S/E-Pro_project/ME/TRE/des/Des_Top.xst" -ofn "D:/Paul S/E-Pro_project/ME/TRE/des/Des_Top.syr" 
+xst -intstyle ise -ifn "D:/Paul S/E-Pro_project/ME/TRE/des/Des_Top.xst" -ofn "D:/Paul S/E-Pro_project/ME/TRE/des/Des_Top.syr" 
+xst -intstyle ise -ifn "D:/Paul S/E-Pro_project/ME/TRE/des/Des_Top.xst" -ofn "D:/Paul S/E-Pro_project/ME/TRE/des/Des_Top.syr" 
+xst -intstyle ise -ifn "D:/Paul S/E-Pro_project/ME/TRE/des/Des_Top.xst" -ofn "D:/Paul S/E-Pro_project/ME/TRE/des/Des_Top.syr" 
+xst -intstyle ise -ifn "D:/Paul S/E-Pro_project/ME/TRE/des/Des_Top.xst" -ofn "D:/Paul S/E-Pro_project/ME/TRE/des/Des_Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1600e-fg320-4 "Des_Top.ngc" Des_Top.ngd  
+map -intstyle ise -p xc3s1600e-fg320-4 -cm area -ir off -pr off -c 100 -o Des_Top_map.ncd Des_Top.ngd Des_Top.pcf 
+par -w -intstyle ise -ol high -t 1 Des_Top_map.ncd Des_Top.ncd Des_Top.pcf 
+xst -intstyle ise -ifn "D:/Paul S/E-Pro_project/ME/TRE/des/Des_Top.xst" -ofn "D:/Paul S/E-Pro_project/ME/TRE/des/Des_Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1600e-fg320-4 "Des_Top.ngc" Des_Top.ngd  
+map -intstyle ise -p xc3s1600e-fg320-4 -cm area -ir off -pr off -c 100 -o Des_Top_map.ncd Des_Top.ngd Des_Top.pcf 
+par -w -intstyle ise -ol high -t 1 Des_Top_map.ncd Des_Top.ncd Des_Top.pcf 
+par -w -intstyle ise -ol high -t 1 Des_Top_map.ncd Des_Top.ncd Des_Top.pcf 
+par -w -intstyle ise -ol high -t 1 Des_Top_map.ncd Des_Top.ncd Des_Top.pcf 
+par -w -intstyle ise -ol high -t 1 Des_Top_map.ncd Des_Top.ncd Des_Top.pcf 
+par -w -intstyle ise -ol high -t 1 Des_Top_map.ncd Des_Top.ncd Des_Top.pcf 
+xst -intstyle ise -ifn "D:/Paul S/E-Pro_project/ME/TRE/des/Des_Top.xst" -ofn "D:/Paul S/E-Pro_project/ME/TRE/des/Des_Top.syr" 
+xst -intstyle ise -ifn "D:/Paul S/E-Pro_project/ME/TRE/des/Des_Top.xst" -ofn "D:/Paul S/E-Pro_project/ME/TRE/des/Des_Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1600e-fg320-4 "Des_Top.ngc" Des_Top.ngd  
+map -intstyle ise -p xc3s1600e-fg320-4 -cm area -ir off -pr off -c 100 -o Des_Top_map.ncd Des_Top.ngd Des_Top.pcf 
+par -w -intstyle ise -ol high -t 1 Des_Top_map.ncd Des_Top.ncd Des_Top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Des_Top.twx Des_Top.ncd -o Des_Top.twr Des_Top.pcf 

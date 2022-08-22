@@ -1,0 +1,15 @@
+ISim log file
+Running: D:\Paul S\E-Pro_project\ME\TRE\des\DES_test1_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/Paul S/E-Pro_project/ME/TRE/des/DES_test1_isim_beh.wdb 
+ISim P.28xd (signature 0xa0883be4)
+This is a Full version of ISim.
+WARNING: File "D:/Paul S/E-Pro_project/ME/TRE/des/Des_Top.v" Line 26.  For instance uut/io/, width 1 of formal port d is not equal to width 64 of actual signal d.
+WARNING: File "D:/Paul S/E-Pro_project/ME/TRE/des/Des_Top.v" Line 26.  For instance uut/io/, width 1 of formal port f is not equal to width 64 of actual signal f.
+WARNING: File "D:/Paul S/E-Pro_project/ME/TRE/des/Des_Top.v" Line 26.  For instance uut/io/, width 1 of formal port s0 is not equal to width 64 of actual signal s0.
+WARNING: File "D:/Paul S/E-Pro_project/ME/TRE/des/Des_Top.v" Line 26.  For instance uut/io/, width 1 of formal port s1 is not equal to width 64 of actual signal s1.
+WARNING: File "D:/Paul S/E-Pro_project/ME/TRE/des/Des_Top.v" Line 45.  For instance uut/ip/, width 64 of formal port PLAIN_TEXT is not equal to width 1 of actual signal x0.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

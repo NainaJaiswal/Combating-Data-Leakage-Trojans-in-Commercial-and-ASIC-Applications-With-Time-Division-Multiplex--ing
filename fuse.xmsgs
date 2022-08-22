@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/Paul S/E-Pro_project/ME/TRE/des/DES_test1.v" Line 38: Port <arg fmt="%s" index="1">d</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/Paul S/E-Pro_project/ME/TRE/des/Des_Top.v" Line 45: Port <arg fmt="%s" index="1">clk</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"D:/Paul S/E-Pro_project/ME/TRE/des/Des_Top.v" Line 45: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">d</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">64</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"D:/Paul S/E-Pro_project/ME/TRE/des/Des_Top.v" Line 46: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">PLAIN_TEXT</arg>&gt;. Formal port size is <arg fmt="%d" index="2">64</arg>-bit while actual signal size is <arg fmt="%d" index="1">1</arg>-bit.
+</msg>
+
+</messages>
+
